@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Meetups /> component renders without crashing 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <div
+      className="pt-5 row"
+    >
+      <div
+        className="col-sm-4"
+        data-test="meetup-cards-test"
+      >
+        <div
+          className="card card-body"
+        >
+          <div
+            className="card-title"
+          >
+            <h5>
+              Another test meetup
+            </h5>
+          </div>
+          <p
+            className="card-text"
+          />
+          <a
+            className="stretched-link"
+            href="#"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
