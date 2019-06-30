@@ -27,7 +27,8 @@
     "start:dev": "webpack-dev-server",
     "build": "webpack --mode production",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "jest": {
     "setupFiles": [
